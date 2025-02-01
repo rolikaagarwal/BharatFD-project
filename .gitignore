@@ -1,0 +1,19 @@
+db.sqlite3
+
+You need to remove the __pycache__ files from Git tracking and properly ignore them using .gitignore.
+
+Steps to Fix This
+Add __pycache__ to .gitignore Run this command to add it:
+
+bash
+Copy
+Edit
+echo "__pycache__/" >> .gitignore
+Or manually edit .gitignore and add:
+
+markdown
+Copy
+Edit
+__pycache__/
+faqs/__pycache__/
+hiring_test/__pycache__/
