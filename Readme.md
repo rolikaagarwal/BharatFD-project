@@ -1,4 +1,4 @@
-# Hiring Test - FAQ Management System
+# Hiring Test - FAQ Management System(Django)
 
 This is a Django-based FAQ management system with multilingual support, WYSIWYG editor integration, and a REST API.
 
@@ -62,7 +62,19 @@ This is a Django-based FAQ management system with multilingual support, WYSIWYG 
    ```bash
    http://localhost:8000/api/faqs/?lang=hi 
 
+## 🛠️ Docker Setup 🐳
 
+### 1️⃣ Build and Run the Docker Containers
+```
+docker-compose up --build
+```
+
+### 2️⃣ Stop the Containers
+```
+docker-compose down
+```
+
+---
 
 ## Linting and Code Formatting
 1. To check for PEP8 compliance, run:
