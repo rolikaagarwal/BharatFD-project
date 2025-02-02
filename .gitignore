@@ -17,3 +17,4 @@ Edit
 __pycache__/
 faqs/__pycache__/
 hiring_test/__pycache__/
+staticfiles/
