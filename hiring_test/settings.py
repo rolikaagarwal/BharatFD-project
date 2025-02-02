@@ -20,7 +20,7 @@ SECRET_KEY = "django-insecure-enhp)288-u=$$eh&%-!w@%!g=i4*1t0yuldvak^4s#ji^w67$r
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'rolika.pythonanywhere.com']
+ALLOWED_HOSTS = ["*"]
 
 DATABASES = {
     'default': {
